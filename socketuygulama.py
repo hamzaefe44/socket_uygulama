@@ -3,7 +3,7 @@ import subprocess
 
 banner_list=[]
 
-IP=input("Target IP:")
+IP=raw_input("Target IP:")
 first_port=int(input("Start port:"))
 and_port=int(input("End port:"))
 
@@ -56,7 +56,7 @@ for service in banner_list:
         except:
             pass
 
-        #xterm ile farklı bir pencerede işlemler işleyecek
+       
 
 
 
